@@ -54,8 +54,8 @@
         $(function () {
             $("#registerForm").submit(function () {
                 if (checkUsername() && checkPassword() && checkEmail()) {
-                    $.post("regirstUserServlet", $(this).serialize(), function (data) {
-                        if (data.flags) {
+                    $.post("user/regirst", $(this).serialize(), function (data) {
+                        if (data.flag) {
                             //注册成功
                             location.href = "register_ok.html"
                         } else {
