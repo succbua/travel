@@ -1,5 +1,6 @@
 <!-- 头部 start -->
     <header id="header">
+        <script src="js/getParameter.js"></script>
         <script>
             $(function () {
                 $.get("user/findOne",{},function (data) {
@@ -10,7 +11,7 @@
                 $.get("category/findAll",{},function (data) {
                     var lis = '<li class="nav-active"><a href="index.html">首页</a></li>'
                     for(var i = 0;i < data.length;i++){
-                        var li = '<li><a href="route_list.html？cid='+data[i].cid+'" >'+data[i].cname+'</a></li>';
+                        var li = '<li><a href="route_list.html?cid='+data[i].cid+'" >'+data[i].cname+'</a></li>';
                         lis += li;
                         // alert(li)
                     }
@@ -18,6 +19,13 @@
 
                     $('#category').html(lis)
 
+                })
+                
+                $("#search_button").click(function () {
+                    var cid = getParameter("cid");
+                    var rname = $("#search_input").val();
+
+                    location.href = "http://localhost:8080/travel/route_list.html?cid="+cid+"&rname="+rname
                 })
 
 
@@ -48,8 +56,8 @@
                     <a href="/"><img src="images/logo.jpg" alt=""></a>
                 </div>
                 <div class="search">
-                    <input name="" type="text" placeholder="请输入路线名称" class="search_input" autocomplete="off">
-                    <a href="javascript:;" class="search-button">搜索</a>
+                    <input name="" type="text" placeholder="请输入路线名称" class="search_input" id="search_input" autocomplete="off">
+                    <a href="javascript:;" class="search-button" id="search_button">搜索</a>
                 </div>
                 <div class="hottel">
                     <div class="hot_pic">
