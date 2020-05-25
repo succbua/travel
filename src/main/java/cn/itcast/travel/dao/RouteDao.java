@@ -7,4 +7,5 @@ import java.util.List;
 public interface RouteDao {
     int findTotalCount(int cid, String rname);
     List<Route> findList(int cid, int start, int pageSize, String rname);
+    Route findOne(String rid);
 }

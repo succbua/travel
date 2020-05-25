@@ -1,0 +1,29 @@
+{
+  "rid": 2,
+  "rname": "【官网专享 立减¥500 张家界天门山+大峡谷+凤凰古城+玻璃栈道+玻璃桥 高铁4天 无自费5钻】印象鲵宴-赶年宴+2晚蓝湾博格酒店",
+  "price": 1799.0,
+  "routeIntroduce": "官网专线，顶级品质！全程超豪华住宿，2晚入住超豪华铂金-蓝湾博格国际酒店，独家尊享金马VIP贵宾专用楼层。",
+  "rflag": "1",
+  "rdate": "2018-02-09 01:13:17",
+  "isThemeTour": "0",
+  "count": 990,
+  "cid": 5,
+  "rimage": "img/product/small/m34866f055de8630e94e25c40f277a79ba.jpg",
+  "sid": 1,
+  "sourceId": "22066",
+  "category": null,
+  "seller": {
+    "sid": 1,
+    "sname": "黑马程序员",
+    "consphone": "12345678901",
+    "address": "传智播客javaEE学院"
+  },
+  "routeImgList": [
+    {
+      "rgid": 5,
+      "rid": 2,
+      "bigPic": "img/product/size4/m44866f055de8630e94e25c40f277a79ba.jpg",
+      "smallPic": "img/product/size2/m24866f055de8630e94e25c40f277a79ba.jpg"
+    }
+  ]
+}

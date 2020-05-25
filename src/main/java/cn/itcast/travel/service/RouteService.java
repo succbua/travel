@@ -13,4 +13,6 @@ public interface RouteService {
      * @return
      */
     PageBean<Route> pageQuery(int cid, int current, int pageSize, String rname);
+
+    Route findOne(String rid);
 }
