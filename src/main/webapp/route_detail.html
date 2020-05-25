@@ -27,7 +27,7 @@
         <div class="prosum_box">
             <dl class="prosum_left">
                 <dt>
-                    <img alt="" class="big_img" src="http://www.jinmalvyou.com/Public/uploads/goods_img/img_size4/201703/m49788843d72171643297ccc033d9288ee.jpg">
+                    <img alt="" class="big_img" id="big_img" src="http://www.jinmalvyou.com/Public/uploads/goods_img/img_size4/201703/m49788843d72171643297ccc033d9288ee.jpg">
                 </dt>
                 <dd id="dd">
                     <a class="up_img up_img_disable"></a>
@@ -70,7 +70,7 @@
                     <p>地址 ： <span id="address">传智播客黑马程序员</span></p>
                 </div>
                 <div class="pros_price">
-                    <p class="price" id="price"><strong>¥2699.00</strong><span>起</span></p>
+                    <p class="price" ><strong id="price">¥2699.00</strong><span>起</span></p>
                     <p class="collect">
                         <a class="btn"><i class="glyphicon glyphicon-heart-empty"></i>点击收藏</a>
 
@@ -119,13 +119,18 @@
         //焦点图效果
         //点击图片切换图片
         loadContent();
+        goImg()
+        //自动播放
+        // var timer = setInterval("auto_play()", 5000);
+    });
+    function goImg(){
         $('.little_img').on('mousemove', function() {
             $('.little_img').removeClass('cur_img');
             var big_pic = $(this).data('bigpic');
             $('.big_img').attr('src', big_pic);
             $(this).addClass('cur_img');
         });
-           //上下切换
+        //上下切换
         var picindex = 0;
         var nextindex = 4;
         $('.down_img').on('click',function(){
@@ -146,9 +151,7 @@
                 nextindex = nextindex - 1;
             }
         });
-        //自动播放
-        // var timer = setInterval("auto_play()", 5000);
-    });
+    }
 
     //自动轮播方法
     function auto_play() {
@@ -182,6 +185,36 @@
                 $("#sname").html(data.sname);
                 $("#consphone").html(data.consphone);
                 $("#address").html(data.address);
+
+                var topButton = '<a class="up_img up_img_disable"></a>'
+                var bottomBotton = '<a class="down_img down_img_disable" style="margin-bottom: 0;"></a>'
+                var imgContent = ""
+
+                imgContent += topButton;
+
+                for (i=0;i<data.routeImgList.length;i++){
+                    var li = "";
+                    if (i > 4){
+
+                        li = '<a title="" class="little_img" data-bigpic="'+data.routeImgList[i].bigPic+'" style="display:none;>\n' +
+                            '                        <img src="'+data.routeImgList[i].smallPic+'">\n' +
+                            '                        </a>'
+                    }else {
+
+                        li = '<a title="" class="little_img" data-bigpic="'+data.routeImgList[i].bigPic+'">\n' +
+                            '                        <img src="'+data.routeImgList[i].smallPic+'">\n' +
+                            '                        </a>'
+
+                    }
+
+
+                    imgContent += li;
+                }
+                imgContent += bottomBotton
+
+                $("#big_img").attr("src",data.routeImgList[0].bigPic);
+                $("#dd").html(imgContent)
+                goImg()
 
 
 

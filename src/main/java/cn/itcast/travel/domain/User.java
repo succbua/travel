@@ -19,7 +19,8 @@ public class User implements Serializable {
 
     /**
      * 无参构造方法
-     */
+     */ 
+
     public User() {
     }
 
