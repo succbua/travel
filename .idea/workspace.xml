@@ -2,63 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e82419-b248-4a70-9bea-5bca2e6e253d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/domain/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/pageServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/dao/CategoryDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/dao/impl/CategoryDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/domain/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/domain/Favorite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/domain/ResultInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/domain/Route.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/domain/RouteImg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/domain/Seller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/domain/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/service/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/service/impl/CategorServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/test/EmailTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/util/EmailController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/util/ExchangeClient$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/util/ExchangeClient$ExchangeClientBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/util/ExchangeClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/util/JDBCUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/util/JedisUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/util/MailInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/util/MailUtils$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/util/MailUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/util/Md5Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/util/UuidUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/filter/CharChaterFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/CategoryServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/CheckCodeServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/activeUserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/baseServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/exitServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/findUsernameServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/regirstUserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/userServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jedis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/travel.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-05-22" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/CategorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/CategorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -171,13 +115,18 @@
           <item name="travel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="travel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="161" />
-    <option name="y" value="162" />
+    <option name="x" value="162" />
+    <option name="y" value="163" />
     <option name="width" value="1042" />
     <option name="height" value="734" />
   </component>
@@ -337,7 +286,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590132967975" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590217026638" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -407,23 +356,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590124464367</updated>
-      <workItem from="1590124466009" duration="7052000" />
+      <workItem from="1590124466009" duration="8243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7052000" />
+    <option name="totallyTimeSpent" value="8243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="161" y="162" width="1042" height="734" extended-state="0" />
+    <frame x="162" y="163" width="1042" height="734" extended-state="0" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" sideWeight="0.50248754" side_tool="true" visible="true" weight="0.24949084" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49751243" visible="true" weight="0.24949084" />
+      <window_info id="Web" sideWeight="0.50166667" side_tool="true" visible="true" weight="0.24949084" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833333" visible="true" weight="0.24949084" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -434,12 +383,12 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49898168" visible="true" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49898168" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.3299389" />
+      <window_info active="true" anchor="right" id="Maven" visible="true" weight="0.3299389" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Database" />
